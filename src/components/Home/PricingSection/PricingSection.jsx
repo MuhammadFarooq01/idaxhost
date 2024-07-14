@@ -129,8 +129,41 @@ function PricingSection() {
           />
         </div>
       </div>
-
-      <div className="h-screen bg-red-600"></div>
+      {/* Money Back gurrentee card */}
+      <div className="py-5 ">
+        <div className="flex lg:mx-10 h-56 bg-white">
+          <div className="">
+            <img src="/mb-circle-left.png" alt="" />
+          </div>
+          <div className="flex flex-col items-center gap-3 justify-center w-full">
+            <div className="text-cnavy text-3xl font-extra-bold font-urbanist">
+              30 day Money-back Guarantee
+            </div>
+            <div className="text-black text-opacity-55 font-miulish">
+              Packed with great features, such as one-click software installs,
+              24/7 support.
+            </div>
+            <div className="flex mt-5 gap-5">
+              <div className="flex items-center gap-5 font-miulish text-cnavy">
+                <img src="/up-down.svg" alt="" />
+                <p className="">Easily Upgrade or Downgrade</p>
+              </div>
+              <div className="flex items-center gap-5 font-miulish text-cnavy">
+                <img src="/calendar.svg" alt="" />
+                <p className="">99.9% Uptime Guarantee</p>
+              </div>
+              <div className="flex items-center gap-5 font-miulish text-cnavy">
+                <img src="/stop-watch.svg" alt="" />
+                <p className="">Instant prorated refund</p>
+              </div>
+            </div>
+          </div>
+          <div className="self-end -mr-6 -mb-5">
+            <img src="/mb-circle-right.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="h-screen"></div>
     </>
   );
 }
