@@ -27,7 +27,6 @@ function Hero() {
               <span>Get Started</span>
             </button>
             <button className="btn-secondary">Contact Us</button>
-            {/* <button className="bg-red-900">Contact Us</button> */}
           </div>
         </div>
 
