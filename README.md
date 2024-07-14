@@ -1,8 +1,38 @@
-# React + Vite
+# idaxhost.com Clone with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the idaxhost.com clone project! I am using React to replicate the idaxhost.com website, along with Tailwind CSS for styling. I code in it a little bit whenever I get some free time!
 
-Currently, two official plugins are available:
+## Project Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project provides a minimal setup to get React up and running, including Hot Module Replacement (HMR) and some ESLint rules to keep our code clean.
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/MuhammadFarooq01/idaxhost.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd idaxhost
+   ```
+
+3. **Install the dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+## Technologies Used
+
+- **React:** For building the user interface.
+- **Tailwind CSS:** For easy and responsive styling.
