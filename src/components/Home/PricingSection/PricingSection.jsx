@@ -129,40 +129,6 @@ function PricingSection() {
           />
         </div>
       </div>
-      {/* Money Back gurrentee card */}
-      <div className="py-5">
-        <div className="flex py-6 lg:mx-10  bg-white">
-          <div className="-mt-6">
-            <img src="/mb-circle-left.png" alt="" />
-          </div>
-          <div className="flex flex-col items-center gap-3 justify-center w-full">
-            <div className="text-cnavy text-3xl font-extra-bold font-urbanist">
-              30 day Money-back Guarantee
-            </div>
-            <div className="text-black text-opacity-55 font-miulish">
-              Packed with great features, such as one-click software installs,
-              24/7 support.
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5 gap-5">
-              <div className="flex col-span-1 items-center gap-5 font-miulish text-cnavy">
-                <img src="/up-down.svg" alt="" />
-                <p className="">Easily Upgrade or Downgrade</p>
-              </div>
-              <div className="flex  col-span-1 items-center gap-5 font-miulish text-cnavy">
-                <img src="/calendar.svg" alt="" />
-                <p className="">99.9% Uptime Guarantee</p>
-              </div>
-              <div className="flex col-span-1 md:col-span-2 lg:col-span-1 md:justify-center items-center gap-5 font-miulish text-cnavy">
-                <img src="/stop-watch.svg" alt="" />
-                <p className="">Instant prorated refund</p>
-              </div>
-            </div>
-          </div>
-          <div className="self-end -mr-6 -mb-10">
-            <img src="/mb-circle-right.png" alt="" />
-          </div>
-        </div>
-      </div>
       <div className="h-screen"></div>
     </>
   );
